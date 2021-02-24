@@ -46,5 +46,3 @@ In addition we would look at some reference architectures \(e.g. Microsoft Graph
 1. -
 2. -
 
-### 
-
