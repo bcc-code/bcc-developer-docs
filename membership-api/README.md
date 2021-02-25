@@ -1,6 +1,6 @@
 ---
-description: Code snippets on how to get membership data
+description: Interacting with BCCs Membership API
 ---
 
-# Membership Api
+# Membership API
 

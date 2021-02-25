@@ -1,11 +1,9 @@
 # Table of contents
 
-* [BCC Open Api's Workshop](README.md)
-* [Untitled](untitled-1.md)
-* [Untitled](untitled.md)
+* [BCC Open APIs Workshop](README.md)
 * [Reference Api's](reference-apis.md)
 * [BMM Api](bmm-api.md)
-* [Membership Api](membership-api/README.md)
+* [Membership API](membership-api/README.md)
   * [Authentication](membership-api/authentication.md)
 * [MyShare Api](myshare-api.md)
 * [Brunstad TV Api](brunstad-tv-api.md)

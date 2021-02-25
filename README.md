@@ -4,7 +4,7 @@ description: >-
   specifically the authentication architecture.
 ---
 
-# BCC Open Api's Workshop
+# BCC Open APIs Workshop
 
 ## Approach
 
