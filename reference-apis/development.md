@@ -12,12 +12,17 @@ Often during local development you need an id\_token or access token in order to
 
 ```text
 https://localhost:5000/connect/authorize?
-    client_id=Auth0&
+    client_id=RandomUser&
     scope=openid email&
-    response_type=code&
+    response_type=token code&
     redirect_uri=https://localhost/login/callback&
     state=abc&
     nonce=xyz
+ 
+// To copy and past  
+https://localhost:5000/connect/authorize?client_id=RandomUser&scope=openid email&response_type=id_token token&redirect_uri=https://localhost/login/callback&state=abc&nonce=xyz
+
+
 ```
 
 Notice the following
