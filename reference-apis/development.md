@@ -20,7 +20,8 @@ https://localhost:5000/connect/authorize?
     nonce=xyz
  
 // To copy and past  
-https://localhost:5000/connect/authorize?client_id=RandomUser&scope=openid email&response_type=id_token token&redirect_uri=https://localhost/login/callback&state=abc&nonce=xyz
+
+https://localhost:5000/connect/authorize?client_id=RandomUser&scope=openid email&response_type=code id_token token&redirect_uri=https://localhost/login/callback&state=abc&nonce=xyz
 
 
 ```
