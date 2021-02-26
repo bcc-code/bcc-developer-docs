@@ -19,7 +19,7 @@ https://dummy.login.bcc.no/connect/authorize?
     state=abc&
     nonce=xyz
  
-// To copy and past  
+// To copy and paste into the browser
 https://dummy.login.bcc.no/connect/authorize?client_id=RandomUser&scope=openid email profile&response_type=code id_token token&redirect_uri=https://localhost/login/callback&state=abc&nonce=xyz
 
 
