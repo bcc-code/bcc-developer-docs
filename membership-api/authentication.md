@@ -14,6 +14,8 @@ Normally authentication through an end-user happens via a client \(web or mobile
 
 ### Authenticating as an organization
 
+Authenticating as an organization can happen by provider and api-key. The api-key can be obtained by contacting Service Center \(servicesenter@bcc.no\).
+
 
 
 ## ID Token
