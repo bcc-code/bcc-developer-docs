@@ -4,6 +4,18 @@ description: 'Authenticating with BCC''s membership api, you can use multiple pa
 
 # Authentication
 
+## Concept
+
+The BCC Membership API allows to either be authenticated as an organization or as an end user. Typically in order to authenticated as an end user an id\_token should be provided and in order to authenticate as an organization an api-key should be provided. 
+
+### Authentication as an end user
+
+Normally authentication through an end-user happens via a client \(web or mobile app\). The client in such a case will be responsible for logging the user in via an identity provider and thus receiving an id\_token which the server will except. All request from the client to the server will then be accompanied with id\_token. In the server the request will then be executed in the context of the end user and based on he permissions of the end user
+
+### Authenticating as an organization
+
+
+
 ## ID Token
 
 ## Access Token 

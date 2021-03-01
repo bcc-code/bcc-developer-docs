@@ -28,9 +28,8 @@ In addition we would look at some reference architectures \(e.g. Microsoft Graph
 
 ### BCC Membership Api Use Cases
 
-1. BUK as an external organization want's access to BCC's members api to synchronize personal data of the BCC members that gave consent for BUK to handle their data. The fields BUK needs access to are. firstName, lastName, email and address.
-2. BCC.Media want to sync all the members data in order to display their displayName and church during conference meetings.
-3. BCC has a client to the members api where BCC members can log into. The client want to be able to do actions in the system based on the logged in member's permission.
+1. BUK want's access to BCC's members api to synchronize personal data of the BCC members that gave consent for BUK to handle their data. The fields BUK needs access to are. firstName, lastName, email and address.
+2. -
 
 ### Brunstad TV Api Use Cases
 
