@@ -2,7 +2,7 @@
 description: 'For the purpose of development, retrieving tokens in an easy way'
 ---
 
-# Development
+# Dummy SSO provider for Development
 
 ### Description
 
