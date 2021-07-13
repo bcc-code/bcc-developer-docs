@@ -7,9 +7,9 @@
 	"webhook": "{service}",
 	"action": "{resource}.{subresource?}.{event}",
 	"signature": "{signedSHA-256(action + payload + token)}",
-	"idempotent": "{hash(action + payload)}"
+	"idempotent": "{hash(action + payload)}",
 	"ts": 1626167843704,
-	"payload": [] || {}
+	"payload": {}
 }
 ```
 
