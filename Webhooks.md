@@ -1,12 +1,19 @@
 # Webhooks
 
-### Structure
+### On webhook request structure
 
+**Header** 
+```
+Accept: "application/json"
+Method: "POST"
+X-Service: "{service}"
+X-Signature: "{signedSHA-256(action + payload + token)}"
+```
+
+**Body**
 ```json
 {
-	"webhook": "{service}",
 	"action": "{resource}.{subresource?}.{event}",
-	"signature": "{signedSHA-256(action + payload + token)}",
 	"idempotent": "{hash(action + payload)}",
 	"ts": 1626167843704,
 	"payload": {}
