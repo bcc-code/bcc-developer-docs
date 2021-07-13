@@ -35,11 +35,18 @@ X-Signature: "{signedSHA-256(action + payload + token)}"
 
 ### Example
 
+Header
+```
+Accept: "application/json"
+Method: "POST"
+X-Service: "Members"
+X-Signature: "4684284F6637F831C24FF6FDF6022BB61612BAF59ABADBD4A1C00FE72094EA9E"
+```
+
+Body
 ```json
 {
-  "webhook": "Members",
   "action": "User.Church.Updated",
-  "signature": "4684284F6637F831C24FF6FDF6022BB61612BAF59ABADBD4A1C00FE72094EA9E",
   "idempotent": "1A099C93A0E29129899A01C61B05C8DB",
   "ts": 1626167843704,
   "payload": {
