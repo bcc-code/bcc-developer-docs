@@ -60,3 +60,12 @@ Body
   }
 }
 ```
+
+## Considerations
+
+**Return a 2xx status code quickly** 
+To acknowledge receipt of an event, your endpoint must return a 2xx HTTP status code to The Service. All response codes outside this range, including 3xx codes, indicate to The Service that you did not receive the event.
+
+If The Service does not receive a 2xx HTTP status code, the notification attempt is repeated. After multiple failures to send the notification over multiple days, The Service marks the event as failed and stops trying to send it to your endpoint. After multiple days without receiving any 2xx HTTP status code responses, The Service emails you about the misconfigured endpoint, and automatically disables your endpoint soon after if unaddressed.
+
+Because properly acknowledging receipt of the webhook notification is so important, your endpoint should return a 2xx HTTP status code prior to any complex logic that could cause a timeout.
