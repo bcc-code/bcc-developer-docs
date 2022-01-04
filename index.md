@@ -1,7 +1,7 @@
 ---
 description: >-
   There would be a full day workshop where we make a strategy for Open APIs and
-  specifically the authentication architecture.
+  specifically the authentication.
 ---
 
 # BCC Open APIs Workshop
