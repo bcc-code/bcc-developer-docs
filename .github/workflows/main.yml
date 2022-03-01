@@ -16,9 +16,10 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Push Folder
-        uses: dmnemec/copy_file_to_another_repo_action@master
+        uses: dmnemec/copy_file_to_another_repo_action@main
         with:
           source_file: 'membership-api/'
+          destination_branch: 'master'
           destination_repo: 'bcc-code/bcc-code.github.io'
           destination_folder: 'docs/membership-api'
           user_email: 'nicolai.velzel@gmail.com'
