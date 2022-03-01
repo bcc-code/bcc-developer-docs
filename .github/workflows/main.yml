@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Push Folder
-        uses: dmnemec/copy_file_to_another_repo_action@main
+        uses: dmnemec/copy_file_to_another_repo_action@master
         with:
           source_file: 'membership-api/'
           destination_repo: 'bcc-code/bcc-code.github.io'
