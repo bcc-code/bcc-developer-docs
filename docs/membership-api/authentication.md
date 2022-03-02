@@ -2,6 +2,14 @@
 description: 'Authenticating with BCC''s membership api, you can use multiple paths'
 ---
 
+## Menu
+- [Home](index)
+- [API integration](api-integration)
+- [Authentication](authentication)
+- [Webhooks integration](webhooks)
+- [Data Structures and Scopes](data-structures-and-scopes)
+- [Single Sign Out](single-sign-out)
+
 # Authentication
 
 ## Concept
